@@ -1,0 +1,41 @@
+.contenedorAcerca{
+  width: 100%;
+  position: relative;
+  min-height: 390px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.contenedorAcerca::before{
+  
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:  rgba(0, 0, 0, 0.8);
+        z-index: 1;
+      
+}
+
+.textAcerca {
+    font-family: 'Poppins', sans-serif; /* Fuente para título principal */
+    font-weight: 600; /* Regular */
+    font-size: 3.2rem;
+    color: #fff;
+}
+
+.textAcercaSub {
+    font-family: 'Poppins', sans-serif; /* Fuente para título principal */
+    font-weight: 500; /* Regular */
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.contentIn {
+    position: relative;
+    z-index: 2;
+    color: white; /* Ajusta para el contraste */
+  }

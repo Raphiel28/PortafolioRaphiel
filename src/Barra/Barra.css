@@ -1,0 +1,149 @@
+.PrincipalContainer{
+    background: linear-gradient(to right, #0c0517, #2e0854);
+    
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    
+    
+    text-decoration: none;
+    
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #a855f7, #6d28d9);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: left;
+  }
+
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+.text{
+
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.94rem;
+    font-weight:500 ;
+}
+
+.button-Default{
+    background: linear-gradient(90deg, #a855f7, #6d28d9);
+    border-radius: 40px;
+    font-weight: 600;
+    border: none;
+    height: auto;
+    width: auto;
+    padding: 15px 25px;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.button-Default:hover{
+    background: linear-gradient(90deg, #6d28d9, #a855f7)
+}
+
+
+.correoText {
+
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.correoText:hover {
+
+  color: #802FFF;
+}
+
+.BarraSuperiorFlotante{
+
+
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    color: white;
+    z-index: 10;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+     animation: BarraFlotanteAparece 0.5s ease-out forwards;
+}
+
+
+@keyframes BarraFlotanteAparece {
+  from {
+      opacity: 0;
+      top: -20px; /* Empieza más abajo */
+  }
+  to {
+      opacity: 1;
+      top: 0; /* Termina en posición original */
+  }
+}
+
+
+
+.BarraMenu{
+position: fixed;
+top: 20;
+left: 20;
+width: 100%;
+height: 100%;
+background-color: #2A1454;
+z-index: 20;
+animation: MenuAparece 0.5s ease-out forwards;
+}
+
+
+
+@keyframes MenuAparece {
+  from {
+      
+     opacity: 1;
+    height: 100%;
+  }
+  to {
+    opacity: 0;
+      height: 0%; /* Termina en posición original */
+  }
+}
+
+
+
+
+
+.BarraMenuDown {
+  position: fixed;
+  top: 20; /* Se agrega la unidad 'px' */
+  left: 20;
+  width: 100%;
+  height: 100%;
+  background-color: #2A1454;
+  z-index: 20;
+ /* Asegura que el contenido se recorte */
+  animation: MenuDesaparece 0.5s ease-out forwards;
+}
+
+@keyframes MenuDesaparece {
+  from {
+    opacity: 0;
+    height: 0%;
+  }
+  to {
+    opacity: 1;
+    height: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.principal{
+    overflow: auto;
+ } 
+/* Webkit (Chrome, Safari, Edge) */
+.principal::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+    padding-left: 10px;
+  }
+  
+  .principal::-webkit-scrollbar-track {
+    background: #442087;
+    
+  }
+  
+  .principal::-webkit-scrollbar-thumb {
+    background-color: #7136E3;
+    border-radius: 100px;
+    border: 2px solid #442087;
+    
+  }
+  
+  .principal::-webkit-scrollbar-thumb:hover {
+    background-color: #9D71F8;
+  }

@@ -1,0 +1,314 @@
+
+.Presentacion{
+    color: #fff;
+    text-align: left;
+}
+
+.Presentacion h1 {
+    font-family: 'Poppins', sans-serif; /* Fuente para título principal */
+    font-weight: 400; /* Regular */
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .Presentacion h1 span {
+    font-weight: 300; /* Ligera para 'I am' */
+    opacity: 0.8; /* Efecto suave */
+  }
+  
+  .Presentacion h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; /* Negrita */
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .Presentacion h2 span {
+    font-weight: 600; /* Semi-bold */
+    color: #a855f7; /* Color degradado o acento */
+  }
+  
+  .Presentacion p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; /* Ligera para texto descriptivo */
+    line-height: 1.5;
+    margin-top: 15px;
+    max-width: 600px;
+    font-size: 1.2rem;
+    color: #CCCCCC;
+  }
+
+.Presentacion-img {
+  box-shadow: 0 0 0 1px #532A7A; /* Simula un borde de 0.05px */
+  border-radius: 30px 30px 30px 30px;
+  transform: rotate(7deg);
+  width:55%;
+  height:auto;
+  transition: transform 0.5s ease;
+  
+}
+
+.Presentacion-img:hover {
+
+  transform: rotate(0deg);
+  box-shadow: 0 0 0 2px #9049D4; 
+
+}
+
+
+.button-DefaultHome{
+  background-color: #0F0715;
+  border-radius: 40px;
+  font-weight: 600;
+  border: none;
+  height: auto;
+  width: auto;
+  padding: 15px 25px;
+  transition: all 0.5s ease-in-out;
+  color: #8750F7;
+  box-shadow: 0 0 0 1px #8750F7;
+  text-decoration: none;
+  
+}
+
+.button-DefaultHome:hover{
+
+  color: #fff;
+  background-color: #8750F7;
+  
+       
+}
+
+
+.BotonesIcono path {
+  fill:white !important; 
+  stroke:#fff !important;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.button-DefaultIcon{
+  background-color: #0F0715;
+  border-radius: 50%;
+  font-weight: 600;
+  border: none;
+  height: 35px;
+  width: 35px;
+  padding: 5px 5px;
+  transition: all 0.2s ease-in-out;
+  color: #8750F7;
+  box-shadow: 0 0 0 1px #8750F7;
+  
+}
+
+
+.button-DefaultIcon:hover{
+  background-color: #8750F7;
+  fill:white !important; 
+  stroke:#fff !important;
+ 
+}
+
+.button-DefaultIcon:hover svg path{
+  
+  fill:white !important; 
+  stroke:#fff !important;
+  
+  transition: all 0.1s ease-in-out;
+}
+
+
+.AcercaHomeTitle {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Negrita */
+  font-size: 3rem;
+  margin: 0;
+  background: linear-gradient(90deg, #8750F7, #B27FFD, #fff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.AcercaHomeFecha {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Negrita */
+  font-Size: 1.5rem;
+  color:#8750F7
+}
+
+
+.AcercaHomePrincipal {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; /* Negrita */
+  font-Size: 1.9rem;
+  color:#fff;
+  text-decoration: none;
+}
+
+.AcercaHomeDescripcion {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-Size: 1.1rem;
+  color:#fff
+}
+
+
+.AcercaHomeContenedor {
+
+background: #261736; 
+width: 80%;
+border-Radius: 15px;
+transition: all 0.5s ease-in-out;
+}
+
+.AcercaHomeContenedor:hover {
+
+  background:   #8750F7;
+ 
+}
+
+
+.AcercaHomeContenedor:hover .AcercaHomeFecha {
+
+  color: #fff;
+}
+
+
+
+
+
+.HabilidadesDescripcion  {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* Ligera para texto descriptivo */
+  line-height: 1.5;
+  margin-top: 15px;
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: #EDEDED;
+  text-align: center;
+}
+
+.HabilidadesPorciento {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; /* Negrita */
+  font-Size: 1.1rem;
+  color:#8750F7
+}
+
+.HabilidadesContenedor{
+  background-Color: #19062E; 
+  border-Radius: 30px;
+  transition: all 0.5s ease;
+  
+}
+
+
+.HabilidadesContenedor:hover{
+  background-Color: #2A1454; 
+  box-shadow: 0 0 0 2px #5026A1;
+  
+}
+
+.HabilidadesContenedor:hover svg {
+   transform:  scale(1.1);
+   
+  
+}
+
+.HabilidadesContenedor:hover p {
+  transform:  scale(1.1);
+  
+ 
+}
+
+
+.TrabajosContenedor {
+
+  background: #261736; 
+  width: 100%;
+  border-Radius: 15px;
+  transition: all 0.5s ease-in-out;
+  }
+
+
+
+  .TrabajoSuperPuesto {
+    position: absolute;
+    bottom: 20px;
+    left: 50;
+    width: 94%;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #a855f7, #6d28d9);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    opacity: 0;
+     /* Inicia un poco más abajo */
+    animation: aparecerDeAbajo 0.5s ease-out forwards;
+    
+   
+  }
+
+
+
+  @keyframes aparecerDeAbajo {
+    from {
+        opacity: 0;
+        bottom: 0px; /* Empieza más abajo */
+    }
+    to {
+        opacity: 1;
+        bottom: 20px; /* Termina en posición original */
+    }
+}
+
+
+.ContactarInputs{
+
+  background-color:#561FAB ;
+ /* box-shadow: 0 0 0 0.5px #303030; */
+
+ border: 2px solid #6D28D9 ;
+ border-radius: 8px;
+ height: 48px;
+  width: 48%;
+  font-size: 1.07rem;
+  color: #fff;
+  font-weight: 600;
+
+}
+
+.ContactarInputs::placeholder {
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 400;
+  
+}
+
+
+.ContactarInputs:focus {
+  border-color: #802FFF;
+  outline: none;
+}
+
+
+.ContactarbuttonSelected{
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.ContactarbuttonSelected:hover{
+
+  color: #802FFF;
+}
+
+
+
+
