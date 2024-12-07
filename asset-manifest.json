@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PortafolioRaphiel/static/css/main.bb23e9c1.css",
+    "main.js": "/PortafolioRaphiel/static/js/main.26fffd87.js",
+    "static/js/453.0ad7197f.chunk.js": "/PortafolioRaphiel/static/js/453.0ad7197f.chunk.js",
+    "index.html": "/PortafolioRaphiel/index.html",
+    "main.bb23e9c1.css.map": "/PortafolioRaphiel/static/css/main.bb23e9c1.css.map",
+    "main.26fffd87.js.map": "/PortafolioRaphiel/static/js/main.26fffd87.js.map",
+    "453.0ad7197f.chunk.js.map": "/PortafolioRaphiel/static/js/453.0ad7197f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb23e9c1.css",
+    "static/js/main.26fffd87.js"
+  ]
+}
