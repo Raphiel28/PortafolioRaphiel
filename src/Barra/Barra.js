@@ -103,7 +103,7 @@ export function Barra(){
         <div className='d-flex flex-row align-items-center' style={{width:'85%', minWidth:'950px'}}>
             
             <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-            <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+            <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
             <span className='correoText'>raphielburdier72@gmail.com</span>
             </div>
             <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -137,7 +137,7 @@ export function Barra(){
         <div className='d-flex flex-row align-items-center' style={{width:'90%'}}>
             
             <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-           <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+           <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
             <span className='correoText'>raphielburdier72@gmail.com</span>
             </div>
             <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -172,7 +172,7 @@ export function Barra(){
 <div className='d-flex flex-row align-items-center' style={{width:'95%'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
     <span className='correoText'>raphielburdier72@gmail.com</span>
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -208,7 +208,7 @@ export function Barra(){
 <div className='d-flex flex-row align-items-center' style={{width:'95%'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
    
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -250,7 +250,7 @@ Pantalla Xl+
 <div className='d-flex flex-row align-items-center' style={{width:'85%', minWidth:'950px'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
     <span className='correoText'>raphielburdier72@gmail.com</span>
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -284,7 +284,7 @@ Pantalla lg
 <div className='d-flex flex-row align-items-center' style={{width:'90%'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
     <span className='correoText'>raphielburdier72@gmail.com</span>
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -316,7 +316,7 @@ Pantalla md
 <div className='d-flex flex-row align-items-center' style={{width:'95%'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
     <span className='correoText'>raphielburdier72@gmail.com</span>
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>
@@ -353,7 +353,7 @@ Pantalla sm-
 <div className='d-flex flex-row align-items-center' style={{width:'95%'}}>
     
     <div className='text d-flex flex-row justify-content-start align-items-center' style={{width:'30%'}}>
-    <Link to="/"> <img className='me-4' src="/images/RaphLogo.png" alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='me-4' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'3rem', height:'auto', minHeight:''}}/></Link>
    
     </div>
     <div className='text d-flex flex-row justify-content-end align-items-center' style={{width:'70%'}}>

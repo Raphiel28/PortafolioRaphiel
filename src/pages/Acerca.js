@@ -18,7 +18,7 @@ export function Acerca() {
 function Portada() {
     return(
         <>
-        <div className='contenedorAcerca d-flex flex-column justify-content-center align-items-center' style={{ backgroundImage:'url("/images/office.jpg")' }}>
+        <div className='contenedorAcerca d-flex flex-column justify-content-center align-items-center' style={{ backgroundImage:`url(${process.env.PUBLIC_URL}/images/office.jpg)` }}>
         <div className='contentIn d-flex flex-column justify-content-center align-items-center'>
         <h2 className='textAcerca'>Acerca de</h2>
         <p className='textAcercaSub'>Inicio -{">"} Acerca de </p>
@@ -727,7 +727,7 @@ function AcercaHome() {
     <div className=' d-flex flex-row py-3 ps-3 justify-content-center py-5' style={{backgroundColor:'#0F0715'}}>
     <div className='d-flex flex-column align-items-center' style={{width:'85%', color:'#fff'}} >
   
-    <Link to="/"> <img className='' src="/images/RaphLogo.png" alt="Projects" style={{width:'5rem', height:'auto', minHeight:''}}/></Link>
+    <Link to="/"> <img className='' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'5rem', height:'auto', minHeight:''}}/></Link>
   <div className=' mt-4 d-flex flex-row justify-content-center align-items-center'>
   
   <Link className="nav-link text me-3" style={{fontWeight:'600'}} to="/">Inicio</Link>

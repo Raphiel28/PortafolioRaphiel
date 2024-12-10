@@ -3,7 +3,7 @@ import { Home } from "./pages/Home";
 import { MainPopUp } from "./pages/PopUps/MainPopUp";
 import { ContextoGlobal } from "./Contexto/Contexto";
 import { useContext } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Acerca } from "./pages/Acerca";
 import { Trabajos } from "./pages/Trabajos";
 import { Contactos } from "./pages/Contactos";
@@ -14,7 +14,8 @@ export function MainLayout(){
 const {modalStates} = useContext(ContextoGlobal);
 console.log('modalState ' + modalStates )
     return(
-        <Router>
+        <BrowserRouter basename="/PortafolioRaphiel">
+        
            <ScrollToTop/>
         <div className="d=flex flex-column" style={{height:'auto', width:'100%'}}>
             
@@ -32,7 +33,8 @@ console.log('modalState ' + modalStates )
             </Routes>
         </div>
         
-        </Router>
+       
+        </BrowserRouter>
         
     )
 

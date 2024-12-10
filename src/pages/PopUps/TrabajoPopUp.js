@@ -4,8 +4,8 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow"
 import './TrabajoPopUp.css'
 import { SwiperSlide, Swiper } from 'swiper/react';
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-import { effectVirtualTransitionEnd } from 'swiper/effect-utils';
+import { Pagination} from 'swiper/modules';
+
 import { useContext } from 'react';
 import { ContextoGlobal } from '../../Contexto/Contexto';
 
@@ -85,13 +85,13 @@ function Imagen({imagen}){
     
     <div className="d-none d-md-flex " style={{width:'90%', backgroundColor:'#2A1454', paddingLeft:'35px', paddingRight:'35px', paddingTop:'40px'}}>
     
-    <img className='' src={imagen} alt="Projects" style={{width:'100%', height:'auto', minHeight:''}} />
+    <img className='' src={`${process.env.PUBLIC_URL}${imagen}`} alt="Projects" style={{width:'100%', height:'auto', minHeight:''}} />
    
     </div>
 
     <div className="d-flex d-md-none " style={{width:'90%', backgroundColor:'#2A1454', paddingLeft:'5px', paddingRight:'5px', paddingTop:'10px'}}>
     
-    <img className='' src={imagen} alt="Projects" style={{width:'100%', height:'auto', minHeight:''}} />
+    <img className='' src={`${process.env.PUBLIC_URL}${imagen}`} alt="Projects" style={{width:'100%', height:'auto', minHeight:''}} />
    
     </div>
     
@@ -171,7 +171,7 @@ function Slider({imagenes}) {
       {imagenes.map((image, index) => (
         <SwiperSlide key={index}>
           <img
-            src={image}
+            src={`${process.env.PUBLIC_URL}${image}`}
             alt={`Slide ${index + 1}`}
             style={{ width: "100%", borderRadius:'0px' }}
           />
@@ -202,7 +202,7 @@ modules={[Pagination]}
   {slides.map((image, index) => (
     <SwiperSlide key={index}>
       <img
-        src={image}
+        src={`${process.env.PUBLIC_URL}${image}`}
         alt={`Slide ${index + 1}`}
         style={{ width: "100%", borderRadius: "10px" }}
       />

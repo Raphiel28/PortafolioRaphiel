@@ -16,7 +16,7 @@ export function Trabajos() {
 function Portada() {
     return(
         <>
-        <div className='contenedorAcerca d-flex flex-column justify-content-center align-items-center' style={{ backgroundImage:'url("/images/office.jpg")' }}>
+        <div className='contenedorAcerca d-flex flex-column justify-content-center align-items-center' style={{ backgroundImage:`url(${process.env.PUBLIC_URL}/images/office.jpg)` }}>
         <div className='contentIn d-flex flex-column justify-content-center align-items-center'>
         <h2 className='textAcerca'>Proyectos</h2>
         <p className='textAcercaSub'>Inicio -{">"} Proyectos </p>
@@ -42,11 +42,11 @@ function TrabajosContainer(){
       { id: 1, 
         nombre :"Inventario",
         descripcion: "Descripcion del Proyecto 1.", 
-        descripcionCompleta :"lorem ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, \
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book. \
-              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \
-              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, \
-              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
+        descripcionCompleta :`lorem ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+              It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`, 
         imagenPrincipal:"/images/Trabajos/InventarioProject.png",
         imagenes:[
           "/images/Trabajos/InventarioProject.png",
@@ -208,7 +208,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={(e) =>MouseClick(proyecto.id, e)} onMouseEnter={() =>MouseEnter(proyecto.id)} onMouseLeave={MouseLeave} className="col-6 ">
             <div className='TrabajosContenedor d-flex flex-row justify-content-center pt-1' style={{ position: 'relative'}}>
   
-              <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'438px', minHeight:''}} />
+              <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'438px', minHeight:''}} />
               
   
               {Nota === proyecto.id && ContainerNota(proyecto)}  
@@ -235,7 +235,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={() =>MouseClick(proyecto.id)} onMouseEnter={() =>MouseEnter(proyecto.id)}onMouseLeave={MouseLeave} className="col-6 ">
   <div className='TrabajosContenedor d-flex flex-row justify-content-center pt-1' style={{ position: 'relative', width:'520px'}}>
   
-    <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'360px', minHeight:''}} />
+    <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'360px', minHeight:''}} />
     
   
     {Nota === proyecto.id && ContainerNota(proyecto)}
@@ -264,7 +264,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={() =>MouseClick(proyecto.id)} onMouseEnter={() =>MouseEnter(proyecto.id)} onMouseLeave={MouseLeave} className="col-6 ">
   <div className='TrabajosContenedor d-flex flex-row justify-content-center' style={{ position: 'relative', width:'450px'}}>
   
-    <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'270px', minHeight:''}} />
+    <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'270px', minHeight:''}} />
     
     {Nota === proyecto.id && ContainerNota(proyecto)}
             </div>
@@ -294,7 +294,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={() =>MouseClick(proyecto.id)} onMouseEnter={() =>MouseEnter(proyecto.id)} onMouseLeave={MouseLeave} className="col-6 ">
   <div className='TrabajosContenedor d-flex flex-row justify-content-center' style={{ position: 'relative', width:'365px'}}>
   
-    <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'270px', minHeight:''}} />
+    <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'270px', minHeight:''}} />
     
   
     {Nota === proyecto.id && ContainerNota(proyecto)}
@@ -326,7 +326,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={() =>MouseClick(proyecto.id)} onMouseEnter={() =>MouseEnter(proyecto.id)} onMouseLeave={MouseLeave} className="col-12 d-flex flex-row justify-content-center mb-4 ">
   <div className='TrabajosContenedor d-flex flex-row justify-content-center' style={{ position: 'relative', width:'470px'}}>
   
-    <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'290px', minHeight:''}} />
+    <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'290px', minHeight:''}} />
     
     {Nota === proyecto.id && ContainerNota(proyecto)}
             </div>
@@ -356,7 +356,7 @@ function TrabajosContainer(){
             ref={el => divRef.current[index] = el}  onClick={() =>MouseClick(proyecto.id)} onMouseEnter={() =>MouseEnter(proyecto.id)} onMouseLeave={MouseLeave} className="col-12 d-flex flex-row justify-content-center mb-4 ">
   <div className='TrabajosContenedor d-flex flex-row justify-content-center' style={{ position: 'relative', width:'100%'}}>
   
-    <img className='mt-4' src="/images/Trabajos/InventarioProject.png" alt="Projects" style={{width:'90%', height:'240px', minHeight:''}} />
+    <img className='mt-4' src={`${process.env.PUBLIC_URL}/images/Trabajos/InventarioProject.png`} alt="Projects" style={{width:'90%', height:'240px', minHeight:''}} />
     
   
     {Nota === proyecto.id && ContainerNota(proyecto)}  
@@ -393,7 +393,7 @@ function FooterDown() {
     <div className=' d-flex flex-row py-3 ps-3 justify-content-center py-5' style={{backgroundColor:'#2D1559'}}>
     <div className='d-flex flex-column align-items-center' style={{width:'85%', color:'#fff'}} >
   
-   <Link to="/"> <img className='' src="/images/RaphLogo.png" alt="Projects" style={{width:'5rem', height:'auto', minHeight:''}}/></Link>
+   <Link to="/"> <img className='' src={`${process.env.PUBLIC_URL}/images/RaphLogo.png`} alt="Projects" style={{width:'5rem', height:'auto', minHeight:''}}/></Link>
   <div className=' mt-4 d-flex flex-row justify-content-center align-items-center'>
   <Link className="nav-link text me-3" style={{fontWeight:'600'}} to="/">Inicio</Link>
   <Link className="nav-link text me-3" style={{fontWeight:'600'}} to="/acerca">Acerca de</Link>
