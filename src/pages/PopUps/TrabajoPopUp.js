@@ -32,11 +32,12 @@ export function TrabajoPopUp() {
         
 
         <Imagen imagen={modalContent.value.imagenPrincipal}/>
-        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta}/>
+        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta} BotonURL={modalContent.value.BotonURL}/>
         <Slider imagenes={modalContent.value.imagenes}/>
         <Tecologias lenguajes={modalContent.value.lenguajes}/>
     </div>
     
+   
     <div onClick={(e) => e.stopPropagation()} className="d-none d-md-flex d-lg-none flex-column align-items-center  py-5 " style={{width:'70%', height:'100%', minWidth:'745px'}}>
         
         
@@ -50,7 +51,7 @@ export function TrabajoPopUp() {
         
 
         <Imagen imagen={modalContent.value.imagenPrincipal}/>
-        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta}/>
+        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta}  BotonURL={modalContent.value.BotonURL}/>
         <Slider imagenes={modalContent.value.imagenes}/>
         <Tecologias lenguajes={modalContent.value.lenguajes}/>
     </div>
@@ -69,7 +70,7 @@ export function TrabajoPopUp() {
         
 
         <Imagen imagen={modalContent.value.imagenPrincipal}/>
-        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta}/>
+        <Descripcion titulo={modalContent.value.nombre} descripcion={modalContent.value.descripcionCompleta}  BotonURL={modalContent.value.BotonURL}/>
         <Slider imagenes={modalContent.value.imagenes}/>
         <Tecologias lenguajes={modalContent.value.lenguajes}/>
     </div>
@@ -101,7 +102,7 @@ function Imagen({imagen}){
 }
 
 
-function Descripcion({titulo, descripcion}) {
+function Descripcion({titulo, descripcion, BotonURL}) {
     return(<>
     <div className='d-none d-md-flex flex-column' style={{width:'90%', backgroundColor:'#fff', padding:'35px 35px'}}>
 
@@ -114,9 +115,11 @@ function Descripcion({titulo, descripcion}) {
         <p className='TextDescripcion d-none d-md-block d-lg-none' style={{fontSize:'1rem'}}>{descripcion}</p>
 
 
+        {BotonURL !== '' &&
+    
+    <button  type='submit' className='button-Default text mt-4' style={{width:'180px'}}>Ver Proyecto</button>
+  }
 
-
-            <button type='submit' className='button-Default text mt-4' style={{width:'180px'}}>Ver Proyecto</button>
 
             
     </div>
@@ -131,10 +134,12 @@ function Descripcion({titulo, descripcion}) {
 
             
 
+        {BotonURL !== '' &&
+     <button type='submit' className='button-Default text mt-4'>Ver Proyecto</button>
+  }
 
 
-
-            <button type='submit' className='button-Default text mt-4'>Ver Proyecto</button>
+           
 
             
     </div>
@@ -237,12 +242,7 @@ function Tecologias({lenguajes}) {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox={lenguaje.cajaLogo}
               >
-                <path
-                  d={lenguaje.logo}
-                  fill={lenguaje.colorLogoFill}
-                  stroke={lenguaje.ColorLogoStroke}
-                  strokeWidth="2"
-                />
+               {lenguaje.logo}
               </svg>
 
               <p className='HabilidadesPorciento mt-4 p-0' style={{margin:'0px', textAlign:'center', transition: 'all 0.5s ease'}}>{lenguaje.nombre}</p>
