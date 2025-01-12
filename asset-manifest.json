@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/PortafolioRaphiel/static/css/main.3d18854d.css",
-    "main.js": "/PortafolioRaphiel/static/js/main.5309e577.js",
+    "main.js": "/PortafolioRaphiel/static/js/main.c7538fc7.js",
     "static/js/453.0ad7197f.chunk.js": "/PortafolioRaphiel/static/js/453.0ad7197f.chunk.js",
     "index.html": "/PortafolioRaphiel/index.html",
     "main.3d18854d.css.map": "/PortafolioRaphiel/static/css/main.3d18854d.css.map",
-    "main.5309e577.js.map": "/PortafolioRaphiel/static/js/main.5309e577.js.map",
+    "main.c7538fc7.js.map": "/PortafolioRaphiel/static/js/main.c7538fc7.js.map",
     "453.0ad7197f.chunk.js.map": "/PortafolioRaphiel/static/js/453.0ad7197f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d18854d.css",
-    "static/js/main.5309e577.js"
+    "static/js/main.c7538fc7.js"
   ]
 }
