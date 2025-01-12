@@ -277,12 +277,7 @@ function Tecologias({lenguajes}) {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox={lenguaje.cajaLogo}
               >
-                <path
-                  d={lenguaje.logo}
-                  fill={lenguaje.colorLogoFill}
-                  stroke={lenguaje.ColorLogoStroke}
-                  strokeWidth="2"
-                />
+                 {lenguaje.logo}
               </svg>
 
               <p className='HabilidadesPorciento mt-4 p-0' style={{margin:'0px', textAlign:'center', transition: 'all 0.5s ease'}}>{lenguaje.nombre}</p>
@@ -314,12 +309,7 @@ function Tecologias({lenguajes}) {
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox={lenguaje.cajaLogo}
               >
-                <path
-                  d={lenguaje.logo}
-                  fill={lenguaje.colorLogoFill}
-                  stroke={lenguaje.ColorLogoStroke}
-                  strokeWidth="2"
-                />
+                 {lenguaje.logo}
               </svg>
 
               <p className='HabilidadesPorciento mt-4 p-0' style={{margin:'0px', textAlign:'center', transition: 'all 0.5s ease'}}>{lenguaje.nombre}</p>
