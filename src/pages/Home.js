@@ -445,9 +445,9 @@ function AcercaHome() {
             </div>
 
             <div className=' AcercaHomeContenedor d-flex flex-column justify-content-start py-3 px-4 mt-4'>
-            <p className='AcercaHomeFecha' style={{margin:'0px'}}>2019 - 2023</p>
-            <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px'}}>Desarrollador de Software</h6>
-            <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px'}}>Instituto Tecnologico de las America</p>
+            <p className='AcercaHomeFecha' style={{margin:'0px'}}>2017 - 2019</p>
+            <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px'}}>Técnico en Informatica</h6>
+            <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px'}}>Politécnico Francisco Antonio Batista Garcias </p>
             </div>
 
         </div>
@@ -514,9 +514,9 @@ function AcercaHome() {
                     </div>
         
                     <div className=' AcercaHomeContenedor d-flex flex-column justify-content-start py-3 px-4 mt-4'>
-                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1.3rem'}}>2019 - 2023</p>
-                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.7rem'}}>Desarrollador de Software</h6>
-                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'1rem'}}>Instituto Tecnologico de las America</p>
+                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1.3rem'}}>2017 - 2019</p>
+                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.7rem'}}>Técnico en Informatica</h6>
+                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'1rem'}}>Politécnico Francisco Antonio Batista Garcias</p>
                     </div>
         
                 </div>
@@ -582,9 +582,9 @@ function AcercaHome() {
                     </div>
         
                     <div className=' AcercaHomeContenedor d-flex flex-column justify-content-start py-3 px-4 mt-4' style={{width:'90%'}}>
-                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1.2rem'}}>2019 - 2023</p>
-                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.6rem'}}>Desarrollador de Software</h6>
-                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'1rem'}}>Instituto Tecnologico de las America</p>
+                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1.2rem'}}>2017 - 2019</p>
+                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.6rem'}}>Técnico en Informatica</h6>
+                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'1rem'}}>Politécnico Francisco Antonio Batista Garcias</p>
                     </div>
         
                 </div>
@@ -651,9 +651,9 @@ function AcercaHome() {
                     </div>
         
                     <div className=' AcercaHomeContenedor d-flex flex-column justify-content-start py-3 px-4 mt-4' style={{width:'90%'}}>
-                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1rem'}}>2019 - 2023</p>
-                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.3rem'}}>Desarrollador de Software</h6>
-                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'0.8rem'}}>Instituto Tecnologico de las America</p>
+                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1rem'}}>2017 - 2019</p>
+                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.3rem'}}>Técnico en Informatica</h6>
+                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'0.8rem'}}>Politécnico Francisco Antonio Batista Garcias</p>
                     </div>
         
                 </div>
@@ -720,9 +720,9 @@ function AcercaHome() {
                     </div>
         
                     <div className=' AcercaHomeContenedor d-flex flex-column justify-content-start py-3 px-4 mt-4' style={{width:'100%'}}>
-                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1rem'}}>2019 - 2023</p>
-                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.3rem'}}>Desarrollador de Software</h6>
-                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'0.8rem'}}>Instituto Tecnologico de las America</p>
+                    <p className='AcercaHomeFecha' style={{margin:'0px', fontSize:'1rem'}}>2017 - 2019</p>
+                    <h6 className='AcercaHomePrincipal mt-1' style={{margin:'0px', fontSize:'1.3rem'}}>Técnico en Informatica</h6>
+                    <p className='AcercaHomeDescripcion mt-1' style={{margin:'0px', fontSize:'0.8rem'}}>Politécnico Francisco Antonio Batista Garcias</p>
                     </div>
         
                 </div>
